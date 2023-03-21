@@ -12,6 +12,6 @@ pip install NumSep
 ```python
 from NumSep import Separator
 
-s = Separator()
-result = s.separate(854000, 3, ',')
+s = Separator(854000, 3, ',')
+result = s.separate()
 ```
